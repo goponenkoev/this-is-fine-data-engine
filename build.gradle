@@ -22,8 +22,8 @@ dependencies {
     annotationProcessor("io.micronaut:micronaut-inject-java")
     annotationProcessor("io.micronaut:micronaut-validation")
     annotationProcessor("io.micronaut.openapi:micronaut-openapi:2.1.1")
-    annotationProcessor "io.micronaut:micronaut-inject-java"
-    annotationProcessor "org.projectlombok:lombok:$lombokVersion"
+    annotationProcessor ("io.micronaut:micronaut-inject-java")
+    annotationProcessor ("org.projectlombok:lombok:$lombokVersion")
 
     implementation(platform("io.micronaut:micronaut-bom:$micronautVersion"))
     implementation("io.micronaut:micronaut-inject")
@@ -35,10 +35,10 @@ dependencies {
 
     //Swagger and endpoints
     implementation("io.swagger.core.v3:swagger-annotations")
-    compile group: 'io.micronaut', name: 'micronaut-management', version: '2.0.3'
+    compile("io.micronaut:micronaut-management:2.0.3")
 
     implementation('net.ravendb:ravendb:5.0.1')
-    compileOnly "org.projectlombok:lombok:$lombokVersion"
+    compileOnly ("org.projectlombok:lombok:$lombokVersion")
     runtimeOnly("ch.qos.logback:logback-classic")
     testAnnotationProcessor(enforcedPlatform("io.micronaut:micronaut-bom:$micronautVersion"))
     testAnnotationProcessor("io.micronaut:micronaut-inject-java")
