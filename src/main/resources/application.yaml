@@ -9,3 +9,7 @@ micronaut:
       swagger-ui:
         paths: classpath:META-INF/swagger/views/swagger-ui
         mapping: /swagger-ui/**
+
+database:
+  name: 'thisisfine'
+  url: 'http://localhost:8090'
