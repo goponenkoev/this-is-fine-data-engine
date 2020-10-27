@@ -1,0 +1,69 @@
+[
+  {
+    "lang": "java",
+    "loc": "rus",
+    "t1": "database",
+    "t2": "oracle",
+    "data": [
+      {
+        "question": "",
+        "answer": {
+          "plainText": "",
+          "html": ""
+        }
+      },
+      {
+        "question": "",
+        "answer": {
+          "plainText": "",
+          "html": ""
+        }
+      }
+    ]
+  },
+  {
+    "lang": "java",
+    "loc": "rus",
+    "t1": "general",
+    "t2": "java8",
+    "data": [
+      {
+        "question": "",
+        "answer": {
+          "plainText": "",
+          "html": ""
+        }
+      },
+      {
+        "question": "",
+        "answer": {
+          "plainText": "",
+          "html": ""
+        }
+      }
+    ]
+  },
+  {
+    "lang": "java",
+    "loc": "eng",
+    "t1": "spring",
+    "t2": "spring data",
+    "data": [
+      {
+        "question": "What is Spring?",
+        "answer": {
+          "plainText": "Spring is an open-source development framework for Enterprise Java. The core features of the Spring Framework can be used in developing any Java application, but there are extensions for building web applications on top of the Java EE platform. Spring framework targets to make Java EE development easier to use and promote good programming practice by enabling a POJO-based programming model.",
+          "html": ""
+        }
+      },
+      {
+        "question": "What are benefits of Spring Framework?",
+        "answer": {
+          "plainText": "Lightweight: Spring is lightweight when it comes to size and transparency. The basic version of the spring framework is around 2MB.\nInversion of control (IOC): Loose coupling is achieved in Spring, with the Inversion of Control technique. The objects give their dependencies instead of creating or looking for dependent objects.\nAspect oriented (AOP): Spring supports Aspect oriented programming and separates application business logic from system services.\nContainer: Spring contains and manages the life cycle and configuration of application objects.\nMVC Framework: Spring’s web framework is a well-designed web MVC framework, which provides a great alternative to web frameworks.\nTransaction Management: Spring provides a consistent transaction management interface that can scale down to a local transaction and scale up to global transactions (JTA).\nException Handling: Spring provides a convenient API to translate technology-specific exceptions (thrown by JDBC, Hibernate, or JDO) into consistent, unchecked exceptions.",
+          "html": ""
+        }
+      }
+    ]
+  }
+
+]
