@@ -2,8 +2,8 @@
   {
     "lang": "java",
     "loc": "rus",
-    "t1": "database",
-    "t2": "oracle",
+    "header": "database",
+    "title": "oracle",
     "data": [
       {
         "question": "",
@@ -24,8 +24,8 @@
   {
     "lang": "java",
     "loc": "rus",
-    "t1": "general",
-    "t2": "java8",
+    "header": "general",
+    "title": "java8",
     "data": [
       {
         "question": "",
@@ -46,8 +46,8 @@
   {
     "lang": "java",
     "loc": "eng",
-    "t1": "spring",
-    "t2": "spring data",
+    "header": "spring",
+    "title": "spring data",
     "data": [
       {
         "question": "What is Spring?",
