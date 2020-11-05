@@ -1,0 +1,1 @@
+docker run -d -p 8090:8080 -p 38888:38888 ravendb/ravendb
