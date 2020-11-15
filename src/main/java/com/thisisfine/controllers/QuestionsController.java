@@ -4,9 +4,10 @@ import com.thisisfine.entity.Cluster;
 import com.thisisfine.service.ClusterService;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
-import io.micronaut.http.annotation.Post;
 import java.util.List;
+import java.util.Map;
 import javax.inject.Inject;
+import net.ravendb.client.documents.queries.facets.FacetResult;
 
 @Controller("/questions")
 public class QuestionsController {
@@ -21,6 +22,11 @@ public class QuestionsController {
   @Get("/{lang}")
   public List<Cluster> retrieveQuestionsByLang(String lang) {
     return clusterService.retrieveQuestions(lang);
+  }
+
+  @Get("/facets/{field}")
+  public Map<String, FacetResult> getFacets(String field) {
+    return clusterService.getFacets(field);
   }
 
 }
