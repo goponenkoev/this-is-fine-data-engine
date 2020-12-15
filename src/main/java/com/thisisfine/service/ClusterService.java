@@ -37,6 +37,13 @@ public class ClusterService {
   }
 
   /**
+   * Add test fake cluster with question
+   */
+  public void addQuestion() {
+    clusterRepository.addFakeQuestion();
+  }
+
+  /**
    * Gets an aggregation result by field name
    *
    * @param fieldName {@link String} name
