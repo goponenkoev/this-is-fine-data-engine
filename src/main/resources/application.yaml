@@ -1,4 +1,6 @@
 micronaut:
+  server:
+    port: 8002
   application:
     name: data-engine
   router:

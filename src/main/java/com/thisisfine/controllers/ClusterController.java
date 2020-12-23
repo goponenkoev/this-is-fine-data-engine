@@ -3,6 +3,7 @@ package com.thisisfine.controllers;
 import com.thisisfine.entity.Cluster;
 import com.thisisfine.service.ClusterService;
 import io.micronaut.http.annotation.Controller;
+import io.micronaut.http.annotation.Get;
 import io.micronaut.http.annotation.Post;
 import javax.inject.Inject;
 
@@ -19,6 +20,11 @@ public class ClusterController {
   @Post
   public void save(Cluster cluster) {
     clusterService.createCluster(cluster);
+  }
+
+  @Get
+  public void addFakeCluster() {
+    clusterService.addQuestion();
   }
 
 }
